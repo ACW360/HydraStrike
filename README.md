@@ -10,7 +10,6 @@
 - Light and Dark themes.
 - Progress bar indicator.
 - Stop button to terminate attacks at any time.
-- Saves output results to `hydrastrike_output.txt`.
 - Auto-detection of successful login and stops automatically.
 
 ## Requirements
