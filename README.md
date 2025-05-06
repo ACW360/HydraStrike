@@ -26,6 +26,7 @@
 ```bash
 sudo apt update
 sudo apt install hydra python3 python3-pip -y
+git clone https://github.com/ACW360/HydraStrike.git
 pip3 install -r requirements.txt
 ```
 
@@ -34,6 +35,7 @@ pip3 install -r requirements.txt
 ```bash
 brew install hydra python3
 pip3 install -r requirements.txt
+git clone https://github.com/ACW360/HydraStrike.git
 ```
 
 ### Windows (via WSL)
@@ -44,13 +46,14 @@ pip3 install -r requirements.txt
 ```bash
 sudo apt update
 sudo apt install hydra python3 python3-pip -y
+git clone https://github.com/ACW360/HydraStrike.git
 pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-python3 hydrastrike.py
+sudo python3 hydrastrike.py
 ```
 
 1. Enter the target IP or hostname.
