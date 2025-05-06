@@ -1,4 +1,3 @@
-
 # HydraStrike
 
 **HydraStrike** is a graphical user interface (GUI) tool for automating brute-force attacks using Hydra. It is designed to be user-friendly and supports both single username and userlist-based attacks. HydraStrike works on Linux, macOS, and Windows (WSL or Cygwin environments).
@@ -10,6 +9,7 @@
 - Light and Dark themes.
 - Progress bar indicator.
 - Stop button to terminate attacks at any time.
+- Saves output results to `hydrastrike_output.txt`.
 - Auto-detection of successful login and stops automatically.
 
 ## Requirements
@@ -27,6 +27,7 @@
 sudo apt update
 sudo apt install hydra python3 python3-pip -y
 git clone https://github.com/ACW360/HydraStrike.git
+cd HydraStrike
 pip3 install -r requirements.txt
 ```
 
@@ -34,8 +35,9 @@ pip3 install -r requirements.txt
 
 ```bash
 brew install hydra python3
-pip3 install -r requirements.txt
 git clone https://github.com/ACW360/HydraStrike.git
+cd HydraStrike
+pip3 install -r requirements.txt
 ```
 
 ### Windows (via WSL)
@@ -47,6 +49,7 @@ git clone https://github.com/ACW360/HydraStrike.git
 sudo apt update
 sudo apt install hydra python3 python3-pip -y
 git clone https://github.com/ACW360/HydraStrike.git
+cd HydraStrike
 pip3 install -r requirements.txt
 ```
 
@@ -64,10 +67,6 @@ sudo python3 hydrastrike.py
 
 HydraStrike will run Hydra and show real-time output in the GUI.
 
- watch a video tutorial on YouTube.
- 👇👇👇
- https://youtu.be/un1EMxju4OI?si=O-ymdc1Nj94Lzi5n
- 
 ## Legal Disclaimer
 
 This tool is intended for **educational purposes** only and should not be used for unauthorized access to systems. The authors are **not responsible** for any damage caused by the misuse of this software.
