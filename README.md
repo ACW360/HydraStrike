@@ -67,6 +67,9 @@ sudo python3 hydrastrike.py
 
 HydraStrike will run Hydra and show real-time output in the GUI.
 
+watch a video tutorial on YouTube. 👇👇👇 
+https://youtu.be/un1EMxju4OI?si=O-ymdc1Nj94Lzi5n
+
 ## Legal Disclaimer
 
 This tool is intended for **educational purposes** only and should not be used for unauthorized access to systems. The authors are **not responsible** for any damage caused by the misuse of this software.
